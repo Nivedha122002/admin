@@ -1,0 +1,92 @@
+
+
+<nav id="sidebarMenu" class="d-md-block  sidebar collapse" style="background-color:  #354b53; height: 100%;">
+    <div class="position-sticky pt-3">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-truncate" style="color: #fff;">
+            <i class="fs-5 bi-house"></i><span class="ms-1 d-none d-sm-inline" [routerLink]="['/dashboard']">Home</span>
+          </a>
+        </li><br>
+        <li>
+          <a href="#submenu1" data-bs-toggle="collapse" class="nav-link text-truncate" style="color: #fff;">
+            <i class="fs-5 bi-speedometer2"></i><span class="ms-1 d-none d-sm-inline"
+              [routerLink]="['/dashboard']">Dashboard</span> </a>
+        </li><br>
+        <li>
+          <a href="#submenu1" data-bs-toggle="collapse" class="nav-link text-truncate" style="color: #fff;">
+            <i class='fas fa-building'></i><span class="ms-1 d-none d-sm-inline"
+              [routerLink]="['/departments']">Departments</span> </a>
+        </li><br>
+        <li>
+          <a href="#" class="nav-link text-truncate" style="color: #fff;">
+            <i class="bi bi-list-task"></i><span class="ms-1 d-none d-sm-inline"
+              [routerLink]="['/task']">Task</span></a>
+        </li><br>
+        <li class="dropdown">
+          <a href="#" class="nav-link dropdown-toggle  text-truncate" id="dropdown" data-bs-toggle="dropdown"
+            aria-expanded="false" style="color: #fff;">
+            <i class="bi bi-people"></i><span class="ms-1 d-none d-sm-inline">Attendance</span>
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdown" style="background-color:#354b53 ;">
+            <li><a class="dropdown-item" href="#" style="color: #fff;" [routerLink]="['/employeelist']">Employee
+                List</a></li>
+            <li><a class="dropdown-item" href="#" style="color: #fff;" [routerLink]="['/holidays']">Holidays</a></li>
+            <li><a class="dropdown-item" href="#" style="color: #fff;" [routerLink]="['/attendance']">Attendance</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#" style="color: #fff;" [routerLink]="['/leave']">Leaves</a></li>
+          </ul>
+        </li><br>
+        <li>
+          <a href="#" class="nav-link text-truncate" style="color: #fff;">
+            <i class="bi bi-bell"></i><span class="ms-1 d-none d-sm-inline">Notification</span> </a>
+        </li><br>
+        <li class="dropdown">
+          <a href="#" class="nav-link dropdown-toggle  text-truncate" id="dropdown" data-bs-toggle="dropdown"
+            aria-expanded="false" style="color: #fff;">
+            <i class="bi bi-person"></i><span class="ms-1 d-none d-sm-inline">Account</span>
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdown" style="background-color:#354b53 ;">
+            <li><a class="dropdown-item" href="#" style="color: #fff;">New project...</a></li>
+            <li><a class="dropdown-item" href="#" style="color: #fff;">Settings</a></li>
+            <li><a class="dropdown-item" href="#" style="color: #fff;" [routerLink]="['/profile']">Profile</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#" style="color: #fff;" [routerLink]="['/logout']">Logout</a></li>
+          </ul>
+        </li>
+      </ul><br>
+
+      <ul class="nav flex-column mb-2">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #fff;">
+            <span data-feather="file-text"></span>
+            Current month
+          </a>
+        </li><br>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #fff;">
+            <span data-feather="file-text"></span>
+            Last quarter
+          </a>
+        </li><br>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #fff;">
+            <span data-feather="file-text"></span>
+            Social engagement
+          </a>
+        </li><br>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #fff;">
+            <span data-feather="file-text"></span>
+            Year-end sale
+          </a>
+        </li>
+      </ul><br>
+    </div>
+    
+  </nav>

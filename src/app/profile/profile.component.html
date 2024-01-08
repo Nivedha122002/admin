@@ -1,0 +1,191 @@
+<app-header></app-header>
+<!--<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<section style="background-color:rgb(244, 247, 246);">
+  <nav class="navbar navbar-expand-lg karva-nav-bar">
+    <div class="container-fluid">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div> <a class="navbar-brand" href="#" >
+            <img src="../../assets/icons8-arrow-50 (1).png" width="40" [routerLink]="['/dashboard']">
+          </a></div>
+    
+          <a class="navbar-brand" href="#">
+
+            <a class="nav-link" href="#" style="color: #e6e3e3 !important; padding: 4% !important;">
+              <h4>User Profile</h4>
+            </a>
+
+          </a>
+
+        </div>
+      </nav>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+
+        <ul class="navbar-nav">
+
+          <a class="nav-link" href="#" style="color: #faf8f8" [routerLink]="['/adduser']">Add User</a>
+
+
+        </ul>
+        <div> <a class="navbar-brand" href="#" >
+          <img src="../../assets/icons8-arrow-50.png" width="40" [routerLink]="['/adduser']">
+        </a></div>
+  
+
+      </div>
+    </div>
+  </nav>-->
+
+
+
+  <div class="container-fluid"style="padding-left: 0;">
+    <div class="row">
+      <app-nav class="col-md-3 col-lg-2"></app-nav>
+  
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 ">
+        
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Profile</h1>
+          <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group me-2">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+            </div></div></div>
+        <div class="navbar-top">
+          
+          <div class="col-sm-12 col-9 text-right m-b-20" style="text-align: right;"><br>
+            <a href="#" class="btn btn-primary float-right btn-rounded" [routerLink]="['/adduser']"><i class="fa fa-plus"></i>Add Profile</a>
+        </div>
+         
+          
+          <!-- End -->
+      </div>
+      <!-- End -->
+  
+      <!-- Sidenav -->
+      <div class="sidenav">
+          <div class="profile">
+              <img src="../../assets/user.jpg" alt="" width="100" height="100">
+  
+              <div class="name">
+                 Nivedha
+              </div>
+              <div class="job">
+                  Web Developer
+              </div>
+          </div>
+  
+         <!-- <div class="sidenav-url">
+            <div class="row">
+              <div class="url ">
+                <button href="#" class="active bg-primary">Profile
+                </button> <br><br>
+              </div>
+              <div class="url">
+              <button href="#"class=" bg-primary">Settings
+              </button>
+                <hr align="center">
+              </div>
+          </div>
+        </div>
+      </div>-->
+      <!-- End -->
+    <br>
+       <button type="profile" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i>Send Message</button>
+   
+      <br><br>
+      <!-- Main -->
+      <div class="main">
+          <h2>IDENTITY</h2>
+          <div class="col-md-6 card">
+              <div class="card-body">
+                <a href="#"><i class="fa fa-pen fa-xs edit"></i></a>
+                  <table>
+                      <tbody>
+                          <tr>
+                              <td>Name</td>
+                              <td>:</td>
+                              <td>Nivedha</td>
+                          </tr>
+                          <tr>
+                              <td>Email</td>
+                              <td>:</td>
+                              <td>imdezcode@gmail.com</td>
+                          </tr>
+                          <tr>
+                              <td>Address</td>
+                              <td>:</td>
+                              <td>Bali, Indonesia</td>
+                          </tr>
+                          <tr>
+                              <td>Hobbies</td>
+                              <td>:</td>
+                              <td>Diving, Reading Book</td>
+                          </tr>
+                          <tr>
+                              <td>Role</td>
+                              <td>:</td>
+                              <td>Web Developer</td>
+                          </tr>
+                          <tr>
+                              <td>Skill</td>
+                              <td>:</td>
+                              <td>PHP, HTML, CSS, Java</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+  
+          <h2>SOCIAL MEDIA</h2>
+          <div class="col-md-6 card" >
+              <div class="card-body">
+                  <a href="#"><i class="fa fa-pen fa-xs edit"></i></a>
+                  <div class="social-media">
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"><i class="fab fa-facebook fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"><i class="fab fa-instagram fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"><i class="fab fa-invision fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"><i class="fab fa-github fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"><i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <span class="fa-stack fa-sm">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <a href="#"> <i class="fab fa-snapchat fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+</div>
+ 
+</main>
+</div></div>
+  <app-footer></app-footer>

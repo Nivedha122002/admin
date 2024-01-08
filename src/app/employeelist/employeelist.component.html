@@ -1,0 +1,202 @@
+<app-header></app-header>
+
+
+
+
+
+  <div class="container-fluid"style="padding-left: 0;">
+    <div class="row">
+      <app-nav class="col-md-3 col-lg-2"></app-nav>
+  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 ">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Employee List</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+      <div class="btn-group me-2">
+        <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+      </div></div></div>
+<div class="page-wrapper">
+    <div class="content">
+        <div class="row">
+            <div class="col-sm-4 col-3">
+              
+            </div><br>
+            <div class="col-sm-8 col-9 text-right m-b-20" style="text-align: right; font-size: 6px;"><br>
+                <a href="#" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i>Add Employee</a>
+            </div>
+        </div>
+        <div class="row filter-row">
+            <div class="col-sm-6 col-md-3">
+                <div class="form-group form-focus">
+                    <label class="focus-label">Employee Name</label>
+                    <input type="text" class="form-control floating">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="form-group form-focus">
+                    <label class="focus-label">Employee ID</label>
+                    <input type="text" class="form-control floating">
+                </div>
+            </div>
+           
+            <div class="col-sm-6 col-md-3 p-2" style="width: 10%;">
+                <div class="form-group form-focus select-focus">
+                    <label class="focus-label">Role</label>
+                    <select class="select floating">
+                        <option>-</option>
+                        <option>Developer</option>
+                        <option>Tester</option>
+                        <option>QA</option>
+                        <option>Accountant</option>
+                        <option>Receptionist</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 p-4"style="width: 10%;">
+                <a href="#" class="btn btn-success btn-block"> Search </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-striped custom-table">
+                        <thead>
+                            <tr>
+                                <th style="min-width:200px;">Name</th>
+                                <th>Employee ID</th>
+                                <th>Email</th>
+                                <th>Mobile</th>
+                                <th style="min-width: 110px;">Join Date</th>
+                                <th>Role</th>
+                                <th class="text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img width="28" height="28" src="../../assets/user.jpg" class="rounded-circle" alt=""> <h6>Archana</h6>
+                                </td>
+                                <td>NS-0001</td>
+                                <td><a href="#">archana@gmail.com</a></td>
+                                <td>8286342744</td>
+                                <td>7 May 2015</td>
+                                <td>
+                                    <span class="custom-badge status-green">Developer</span>
+                                </td>
+                                <td class="text-right">
+                                    <div class="dropdown dropdown-action">
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Edit or Delete</button>
+                                            <div class="dropdown-content">
+                                              <a href="#">Edit</a>
+                                              <a href="#">Delete</a>
+                                              
+                                            </div>
+                                          </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img width="28" height="28" src="../../assets/user.jpg" class="rounded-circle" alt=""> <h6>Vijay Varma</h6>
+                                </td>
+                                <td>DR-0001</td>
+                                <td><a href="#">vijayvarma@gmail.com</a></td>
+                                <td>9283445176</td>
+                                <td>1 Jan 2013</td>
+                                <td>
+                                    <span class="custom-badge status-blue">Tester</span>
+                                </td>
+                                <td class="text-right">
+                                    <div class="dropdown dropdown-action">
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Edit or Delete</button>
+                                            <div class="dropdown-content">
+                                              <a href="#">Edit</a>
+                                              <a href="#">Delete</a>
+                                             
+                                            </div>
+                                          </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img width="28" height="28" src="../../assets/user.jpg" class="rounded-circle" alt=""> <h6>Jovika</h6>
+                                </td>
+                                <td>SF-0003</td>
+                                <td><a href="#">jovika@gmail.com</a></td>
+                                <td>6038314983</td>
+                                <td>27 Dec 2017</td>
+                                <td>
+                                    <span class="custom-badge status-grey">Accountant</span>
+                                </td>
+                                <td class="text-right">
+                                    <div class="dropdown dropdown-action">
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Edit or Delete</button>
+                                            <div class="dropdown-content">
+                                              <a href="#">Edit</a>
+                                              <a href="#">Delete</a>
+                                              
+                                            </div>
+                                          </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img width="28" height="28" src="../../assets/user.jpg" class="rounded-circle" alt=""> <h6>Nixen</h6>
+                                </td>
+                                <td>SF-0002</td>
+                                <td><a href="#">nixen@gmail.com</a></td>
+                                <td>6167744962</td>
+                                <td>21 Apr 2017</td>
+                                <td>
+                                    <span class="custom-badge status-grey">Designer</span>
+                                </td>
+                                <td class="text-right">
+                                    <div class="dropdown dropdown-action">
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Edit or Delete</button>
+                                            <div class="dropdown-content">
+                                              <a href="#">Edit</a>
+                                              <a href="#">Delete</a>
+                                             
+                                            </div>
+                                          </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img width="28" height="28" src="../../assets/user.jpg" class="rounded-circle" alt=""><h6>Vishnu</h6>
+                                </td>
+                                <td>SF-0001</td>
+                                <td><a href="#">vishnu@gmail.com</a></td>
+                                <td>4445559999</td>
+                                <td>19 May 2012</td>
+                                <td>
+                                    <span class="custom-badge status-grey">Receptionist</span>
+                                </td>
+                                <td class="text-right">
+                                    <div class="dropdown dropdown-action">
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Edit or Delete</button>
+                                            <div class="dropdown-content">
+                                              <a href="#">Edit</a>
+                                              <a href="#">Delete</a>
+                                              
+                                            </div>
+                                          </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div></div></main></div></div>
+<app-footer></app-footer>
+
