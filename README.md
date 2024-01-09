@@ -5,17 +5,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Steps to Create an Admin Panel with Angular:
 1. Angular Setup:
-Set up your Angular environment by installing Angular CLI and creating a new Angular project.
+Set up your Angular environment by installing Angular CLI and creating a new Angular project .
 
-npm install -g @angular/cli
+npm install -g @angular/cli      
 ng new admin-panel
 
 # Designing Layouts and Components:
-Define the layout and structure of your admin panel. Create components for different sections like dashboard, user management, settings, analytics, etc.
+Define the layout and structure of your admin panel using dependency injection (nav ,header,footer). Create components for different sections like dashboard, user management, settings, analytics, etc.
 
 # Routing Configuration:
 Use Angular Router to set up routing for various sections/pages within the admin panel.
-For Example
+# For Example
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'users', component: UsersComponent },
@@ -54,7 +54,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 # Continuous Improvement:
-I have created various components for the admin panel, including profile, attendance sheet, login/logout pages, task updates, leave management, holidays, and designed a responsive UI/UX layout.
+I have created various components for the admin panel, including profile, attendance sheet, login/logout pages,using dependency injection (nav ,header,footer) task updates, leave management, holidays, and designed a responsive UI/UX layout.
 
 ## Further help
 
