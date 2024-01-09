@@ -42,12 +42,8 @@ Use Angular Material or other UI frameworks to create a responsive and user-frie
 # Integration with Backend:
 Connect your admin panel to a backend server or API to fetch and update data. Ensure proper handling of API responses and errors.
 
-# Testing and Debugging:
-Test your admin panel thoroughly to ensure functionality across different browsers and devices. Use Angular's built-in testing tools or frameworks
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Testing and Debugging:
+Test your admin panel thoroughly to ensure functionality across different browsers and devices. Use Angular's built-in testing tools or frameworks.Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
