@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 # Steps to Create an Admin Panel with Angular:
-1. Angular Setup:
+Angular Setup:
 Set up your Angular environment by installing Angular CLI and creating a new Angular project .
 
 npm install -g @angular/cli      
