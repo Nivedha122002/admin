@@ -15,7 +15,7 @@ Define the layout and structure of your admin panel using dependency injection (
 
 # Routing Configuration:
 Use Angular Router to set up routing for various sections/pages within the admin panel.
-# For Example
+## For Example
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'users', component: UsersComponent },
