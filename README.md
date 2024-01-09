@@ -1,5 +1,5 @@
-# MyApp
-
+# EmployeeAdminPanel
+Creating an admin panel using Angular involves building a web application that provides a user interface for administrators to manage and control various aspects of a system or application.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
 ## Development server
